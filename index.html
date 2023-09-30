@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delayed Input</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <button id="openButton">Open</button>
+            <button id="closeButton">Close</button>
+            <button id="boostButton">Boost</button>
+        </div>
+        <div class="options">
+            <label for="balanceAmount">Balance Amount:</label>
+            <input type="number" id="balanceAmount" step="0.01" placeholder="Enter amount">
+            
+            <label for="selectAsset">Select Asset:</label>
+            <select id="selectAsset">
+                <option value="asset1">ETH</option>
+                <option value="asset2">DOX</option>
+                <option value="asset3">CRYP</option>
+            </select>
+        </div>
+        <button id="executeButton">Execute</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
